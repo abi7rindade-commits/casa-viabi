@@ -817,3 +817,8 @@ document.addEventListener(
 // ==========================================
 
 renderizarPresentes();
+console.log("SITE CASA VIABI FUNCIONANDO");
+
+console.log("Modal:", modal);
+
+console.log("Lista de presentes:", listaPresentes);

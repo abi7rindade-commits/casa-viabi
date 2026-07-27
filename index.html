@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Casa da Abi, Vi & Lilith 🏡</title>
+
+  <meta
+    name="description"
+    content="Nossa primeira casa, construída com carinho por nós e por pessoas queridas."
+  >
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- =========================
+       CABEÇALHO
+  ========================== -->
+
+  <header class="hero">
+
+    <nav class="menu">
+
+      <a href="#" class="logo">
+        Abi <span>×</span> Vi <small>♥</small>
+      </a>
+
+      <a href="#presentes" class="menu-link">
+        nossa lista
+      </a>
+
+    </nav>
+
+
+    <div class="hero-content">
+
+      <div class="hero-text">
+
+        <p class="eyebrow">
+          a nossa primeira casa
+        </p>
+
+        <h1>
+          Um cantinho
+          <br>
+          <em>feito por nós.</em>
+        </h1>
+
+        <p class="hero-description">
+          Estamos começando uma nova fase:
+          nossa primeira casa juntas.
+          Um espaço para construir histórias,
+          receber pessoas queridas e criar memórias.
+        </p>
+
+        <a href="#presentes" class="primary-button">
+          ver a lista de presentes
+          <span>↓</span>
+        </a>
+
+      </div>
+
+
+      <div class="hero-illustration">
+
+        <div class="sun"></div>
+
+        <div class="house">
+
+          <div class="roof"></div>
+
+          <div class="window window-left"></div>
+
+          <div class="window window-right"></div>
+
+          <div class="door"></div>
+
+        </div>
+
+        <div class="plant plant-left">♧</div>
+
+        <div class="plant plant-right">♧</div>
+
+        <div class="cat">♡</div>
+
+      </div>
+
+    </div>
+
+  </header>
+
+
+
+  <!-- =========================
+       INTRODUÇÃO
+  ========================== -->
+
+  <main>
+
+    <section class="introduction">
+
+      <div class="intro-title">
+
+        <p class="eyebrow">
+          com carinho
+        </p>
+
+        <h2>
+          Mais do que presentes,
+          <br>
+          <em>pedacinhos da nossa casa.</em>
+        </h2>
+
+      </div>
+
+
+      <div class="intro-text">
+
+        <p>
+          Estamos montando nosso primeiro lar juntas
+          e escolhemos algumas coisas que vão fazer
+          parte dessa nova fase.
+        </p>
+
+        <p>
+          Se você quiser fazer parte desse começo,
+          pode escolher um presente inteiro ou
+          contribuir com qualquer valor para ajudar
+          a gente a conquistá-lo.
+        </p>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =========================
+         LISTA DE PRESENTES
+    ========================== -->
+
+    <section id="presentes" class="gifts-section">
+
+      <div class="section-heading">
+
+        <div>
+
+          <p class="eyebrow">
+            lista da casa
+          </p>
+
+          <h2>
+            Escolha um presente
+          </h2>
+
+        </div>
+
+        <span class="gift-counter">
+          nossa lista
+        </span>
+
+      </div>
+
+
+      <!--
+        Os presentes serão colocados
+        aqui pelo JavaScript.
+      -->
+
+      <div
+        id="lista-presentes"
+        class="gift-grid"
+      ></div>
+
+    </section>
+
+
+
+    <!-- =========================
+         RECADINHOS
+    ========================== -->
+
+    <section class="messages-section">
+
+      <div class="messages-content">
+
+        <div>
+
+          <p class="eyebrow">
+            💌 um cantinho especial
+          </p>
+
+          <h2>
+            Recadinhos para
+            <br>
+            <em>a nossa casa.</em>
+          </h2>
+
+        </div>
+
+
+        <p>
+          Cada presente vai carregar um pedacinho
+          de carinho de quem participou desse começo.
+          Quando um presente for conquistado,
+          os recadinhos de quem ajudou a torná-lo
+          possível vão ficar guardadinhos aqui.
+        </p>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+
+  <!-- =========================
+       RODAPÉ
+  ========================== -->
+
+  <footer>
+
+    <div class="footer-content">
+
+      <span>
+        abi × vi × lilith
+      </span>
+
+      <span>
+        nossa primeira casa 🏡
+      </span>
+
+    </div>
+
+  </footer>
+
+
+
+  <!-- =========================
+       MODAL
+  ========================== -->
+
+  <div
+    id="modal"
+    class="modal-background"
+    hidden
+  >
+
+    <div
+      class="modal"
+      role="dialog"
+      aria-modal="true"
+    >
+
+      <button
+        id="fechar-modal"
+        class="close-modal"
+        aria-label="Fechar"
+      >
+        ×
+      </button>
+
+
+      <div id="conteudo-modal"></div>
+
+    </div>
+
+  </div>
+
+
+
+  <!-- JavaScript -->
+
+  <script src="app.js"></script>
+
+</body>
+
+</html>
